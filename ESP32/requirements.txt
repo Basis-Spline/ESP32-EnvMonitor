@@ -1,0 +1,9 @@
+# ESP32 Setup
+
+## MicroPython Setup
+
+1. **Flash MicroPython firmware** to your ESP32. Instructions can be found on the [MicroPython website](https://micropython.org/download/esp32/).
+
+2. **Upload `main.py` to your ESP32** using a tool like `ampy` or `mpfshell`:
+   ```bash
+   ampy --port /dev/ttyUSB0 put main.py
